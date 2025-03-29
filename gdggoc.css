@@ -1,0 +1,69 @@
+*{
+    font-family: "Josefin Sans", sans-serif;
+    background: #fff;
+    color: black;
+    box-sizing: border-box;
+}
+.header-container{
+padding: 10px 10%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 18px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+
+/* Now styling for hero section */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.hero-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.left-content {
+    flex: 1;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+#hero-logo {
+    height: 200px;
+    width: 200px;
+    margin-right: 15px;
+}
+#leftheading1{
+    font-size: 30px;
+}
+.info-content {
+    margin-top: 10px;
+}
+.right-content img {
+    width: 100%;
+    max-width: 400px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+

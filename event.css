@@ -1,0 +1,74 @@
+*{
+    font-family: "Josefin Sans", sans-serif;
+    background: #fff;
+    color: black;
+    box-sizing: border-box;
+}
+.header-container{
+padding: 10px 10%;
+/* height: 20px */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 18px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+
+/* Now styling for hero section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:ghostwhite;
+}
+.box{
+    width: 23%;
+    /* border: 2px solid rgba(0, 0, 0, 0.388); */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    height: 400px;
+    padding: 20px 0px 15px 0px;
+    margin-top: 15px;
+    position: relative;
+
+
+}
+.box:hover{
+    scale: 1.04;
+    /* border: 0.5px solid rgba(0, 0, 0, 0.600); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* ye border styling copy kari hai website se : https://getcssscan.com/css-box-shadow-examples */
+}
+.box-image{
+    height: 180px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content h2 {
+    height: 55px;;
+}
+.Description {
+    color: white;
+    text-decoration: none;
+}
+.box-content p article{
+    color: #007185;
+
+    /* to remove the underline in the anchor tag text */
+    text-decoration: none;
+}
+
